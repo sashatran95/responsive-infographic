@@ -12,7 +12,7 @@ html{
   -webkit-text-size-adjust: 100%;	
   text-size-adjust: 100%;
 
-}		
+}
 
 *, *::before, *::after{
   box-sizing: inherit;
@@ -30,12 +30,14 @@ img {
   width: 100%;
 
 }/*Section 1*/
+
 .section1 {
   display: block;
   text-align: center;
   background-color: #fff2cf;
   position: relative;
   margin-bottom: 0;
+  padding-bottom: 0;
 
 }/*Section 2*/
 .section2 {
