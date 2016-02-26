@@ -73,32 +73,24 @@ img {
 
 }
 
-@media only screen and (min-width: 38em) {
-  .section1 svg {
-    position: relative;
-
-  }
-
-  .section1 {
-    display: block;
-    text-align: center;
-    position: relative;
-
-  }
+@media only screen and (min-width: 60em) {
 
   .section2 svg {
-    position: absolute;
-
-  }
-
-  .section2 {
+    margin: 0 auto;
+    width: 100%;
     text-align: left;
-    position: absolute;
+    position: relative;
+    display: block;
 
   }
 
-  .section3 {
+  .section3 svg {
+    margin: 0 auto;
+    width: 100%;
     text-align: right;
+    display: block;
+    position: relative;
 
   }
+  
 }
