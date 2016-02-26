@@ -1,8 +1,8 @@
-@-moz-viewport {width: device-width; scale: 1; }
-@-ms-viewport {width: device-width; scale: 1; }
-@-o-viewport {width: device-width; scale: 1; }
-@-webkit-viewport {width: device-width; scale: 1; }
-@viewport {width: device-width; scale: 1; }
+@-moz-viewport {width: device-width; scale: 1; } 
+@-ms-viewport {width: device-width; scale: 1; } 
+@-o-viewport {width: device-width; scale: 1; } 
+@-webkit-viewport {width: device-width; scale: 1; } 
+@viewport {width: device-width; scale: 1; } 
 
 html{
   box-sizing: border-box;
@@ -45,14 +45,60 @@ img {
 
 }
 
+.section2 svg {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
 .section2 {
   background-color: #b8e5f8;/*blue*/
   text-align: center;
+  display: block;
+
+}
+
+.section3 svg {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
 
 }
 
 .section3 {
   margin-top: 1em;
   text-align: center;
+  display: block;
 
+}
+
+@media only screen and (min-width: 38em) {
+  .section1 svg {
+    position: relative;
+
+  }
+
+  .section1 {
+    display: block;
+    text-align: center;
+    position: relative;
+
+  }
+
+  .section2 svg {
+    position: absolute;
+
+  }
+
+  .section2 {
+    text-align: left;
+    position: absolute;
+
+  }
+
+  .section3 {
+    text-align: right;
+
+  }
 }
