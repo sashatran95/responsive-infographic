@@ -56,6 +56,7 @@ img {
   background-color: #b8e5f8;/*blue*/
   text-align: center;
   display: block;
+  position: relative;
 
 }
 
@@ -70,27 +71,34 @@ img {
   margin-top: 1em;
   text-align: center;
   display: block;
-
+  position: relative;
 }
 
 @media only screen and (min-width: 60em) {
 
   .section2 svg {
     margin: 0 auto;
-    width: 100%;
+    width: 100% auto;
+
+  }
+  .section2 {
     text-align: left;
-    position: relative;
+    position: absolute;
     display: block;
 
   }
 
   .section3 svg {
     margin: 0 auto;
-    width: 100%;
+    width: 100% auto;
+
+  }
+
+  .section3 {
     text-align: right;
     display: block;
     position: relative;
 
   }
-  
+
 }
