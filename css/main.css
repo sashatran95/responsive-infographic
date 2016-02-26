@@ -23,17 +23,27 @@ body {
 img {
     display: block;
     width: 100%;
+}
+.section1 svg {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+
 }/*Section 1*/
 .section1 {
-  padding-top: 1em;
-  width: 10%;
   display: block;
   text-align: center;
-}
+  background-color: #fff2cf;
+  position: relative;
+  margin-bottom: 0;
+
+}/*Section 2*/
 .section2 {
   background-color: #b8e5f8;/*blue*/
   text-align: center;
-}
+
+}/*Section 3*/
 .section3 {
+  margin-top: 1em;
   text-align: center;
 }
